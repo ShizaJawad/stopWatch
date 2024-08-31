@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button class="fixed">
+        <div class="timer">
+            <div class="font bold" style="display: inline;" id="hr"></div>
+            <div class="font bold" id="min"></div>
+            <div  class="font bold" id="sec"></div>
+        </div><br><br>
+        <div class="icons">
+            <div><img  width="30px" height="30px" src="./assets/icons/stop-button.png" ></div>
+            <div><img width="30px" height="30px" src="./assets/icons/play-button.png"></div>
+            <div onclick="myStopFunction()"><img width="30px" height="30px" src="./assets/icons/circular.png"></div>
+        </div>    
+    </button>
+    <script src="app.js"></script>
+</body>
+</html>
